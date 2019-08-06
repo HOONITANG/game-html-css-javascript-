@@ -1,0 +1,16 @@
+#wrap-content {
+  padding: 0 10px
+}
+#content {
+  width: 960px;
+  height: auto;
+  margin: 30px auto;
+}
+
+.games-gallery li {
+  float: left;
+  width: 300px;
+  margin: 0 10px 10px 10px;
+  overflow: hidden;
+  text-align: center;
+}

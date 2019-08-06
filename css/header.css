@@ -1,0 +1,98 @@
+
+/* css 초기화- 브라우저마다 기본으로 제공하는 스타일이 다르기 때문에 반드시 초기화 */
+body, ul, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* 배경화면색깔css */
+body {
+  background-color: #181815;
+}
+
+
+/* 메인메뉴css */
+#wrap-header{
+  background-color: black;
+}
+
+#header {
+  width: 940px;
+  height: 60px;
+  margin: 0 auto;
+  padding: 0 10px;
+  text-align: center;
+}
+
+li {
+  list-style-type: none;
+}
+
+li h2 {
+  color: white;
+}
+
+li span {
+  color: #B9B8B5;
+}
+
+.mainmenu a {
+  text-decoration: none;
+  color: gray;
+  font-family:fantasy;
+}
+
+
+.games-gallery span {
+  font-size: 10px;
+  font-family: serif;
+  /* border-top: 3px solid red; */
+}
+
+#logo,.mainmenu {
+  height: 60px;
+  display: inline-block;
+  margin: 0 10px;
+  line-height: 60px;
+  overflow: hidden;
+}
+
+.mainmenu {
+  background-color: black;
+}
+
+#logo {
+  float: left;
+}
+
+.mainmenu li {
+  float:left;
+  margin: 0 10px;
+}
+
+
+/* 검색창 css */
+.input_text {
+    width: 200px; height: 21px;
+    margin: -10px -10 -10 9px;
+    border: 0;
+    line-height: 21px;
+    font-weight: bold;
+    font-size: 16px;
+    outline: none;
+}
+.sch_smit {
+    width: 54px; height: 30px;
+    line-height: 25px;
+    margin: 0; border: 0;
+    vertical-align: middle;
+    background: #200400;
+    color: white;
+    font-weight: bold;
+    border-radius: 1px;
+    cursor: pointer;
+}
+.sch_smit:hover {
+    background: #56C82C;
+}

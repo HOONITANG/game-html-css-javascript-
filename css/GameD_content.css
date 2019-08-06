@@ -1,0 +1,110 @@
+
+/* body의 전체적인 틀 */
+#wrap_contentbody {
+ width : 960px;
+ border: 1px solid white;
+ margin : 10px auto;
+}
+
+
+/* 게임디테일의 목차켄테이너 */
+#gamebox {
+  position: fixed;
+  /* float left속성 지워도 변화없음 */
+  float: left;
+  width: 120px;
+  border-right:1px solid white;
+}
+
+/* h2 목차 : 가운데 정렬과 색변경 */
+#gamebox h2 {
+  text-align: center;
+  color: #f2f2f2;
+}
+
+/* 왼쪽 목차 목록 디자인 */
+.gblist a {
+   float: left;
+   width: 88px;
+   display: block;
+   color: #f2f2f2;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+}
+
+.gblist a:hover {
+  background: #ddd;
+  color: black;
+}
+
+/* 이미지 슬라이드, 댓글 등이 들어갈 내용 디자인 */
+#article {
+  position: relative;
+  left: 120px;
+  top: 0px;
+  width: 810px;
+  border-left: 1px solid white;
+  padding: 0px 15px;
+  /* 패딩 좌우 20px로 변경하면 넓이의 길이가 고정되어 있기 때문에 제대로 이뤄지지 않는듯함 */
+}
+
+/* title h2 디자인 */
+.title h2 {
+  font-size: 24px;
+  font:sans-serif;
+  margin-top: 10px;
+  color : white;
+}
+
+/* tag 디자인 */
+.gtag {
+  clear: both;
+  display: inline-block;
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 700;
+  /* 두께조절 */
+  color: #7e91ab;
+  text-transform: uppercase;
+  height: 20px;
+}
+
+/* tag 디자인 */
+.gtag span {
+  padding: 0 8px;
+  background: #f0f5fc;
+  border-radius: 10px;
+  margin-right: 4px;
+}
+
+/* 소제목 디자인 */
+#article h1 {
+    font-size: 17pt;
+    font-weight: 700;
+    color: #cdcdcd;
+    border-left: 9px solid black;
+    border-bottom: 2px solid black;
+    padding: 0px 12px 5px 12px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+/* 슬라이드사진옆줄거리 */
+.storytext {
+  width: 400px;
+  float: right;
+  color: #cdcdcd;
+}
+
+/* 개요 배경 디자인 */
+.gaeyoyap,.juljul,.recommendcom {
+  color: #1C1C1C;
+  position: relative;
+  padding: 18px 24px;
+  background: #EFF2FB;
+  box-shadow: 0 6px 12px 0 rgba(0,0,0,.24);
+}
+
+.recommendcom {
+  margin-bottom: 10px;
+}
